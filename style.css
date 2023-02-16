@@ -1,0 +1,26 @@
+.maincont {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(53, 32, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.charchoDiv {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.smallDivs {
+  width: 30px;
+  height: 30px;
+  background-color: #505050;
+  opacity: 25%;
+  border: solid 0.2px #000000;
+  border-radius: 2px;
+}
+.charchoDiv:hover {
+  cursor: pointer;
+}
