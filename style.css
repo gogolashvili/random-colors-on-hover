@@ -7,20 +7,21 @@
   align-items: center;
 }
 
-.charchoDiv {
+.shidadiv {
   width: 800px;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
-.smallDivs {
+.shidadiv:hover {
+  cursor: pointer;
+}
+
+.cubediv {
   width: 30px;
   height: 30px;
-  background-color: #505050;
   opacity: 25%;
-  border: solid 0.2px #000000;
-  border-radius: 2px;
-}
-.charchoDiv:hover {
-  cursor: pointer;
+  border-radius: 3px;
+  background-color: #06ab69;
+  border: solid 0.5px #000000;
 }
