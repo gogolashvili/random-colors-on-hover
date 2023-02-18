@@ -19,3 +19,12 @@ cubes.forEach((cube) => {
     cube.style.boxShadow = "0px 0px 27px 3.5px" + color;
   });
 });
+
+cubes.forEach((cube) => {
+  cube.addEventListener("mouseleave", function () {
+    cube.style.boxShadow = "none";
+    cube.style.opacity = "40%";
+    cube.style.backgroundColor = "#3c06c4";
+    cube.style.transitionDuration = "1.5s";
+  });
+});
