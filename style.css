@@ -1,7 +1,7 @@
 .maincont {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(53, 32, 100);
+  background-color: rgb(13, 22, 59);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,8 +20,7 @@
 .cubediv {
   width: 30px;
   height: 30px;
-  opacity: 25%;
+  opacity: 40%;
   border-radius: 3px;
-  background-color: #06ab69;
-  border: solid 0.5px #000000;
+  background-color: #3c06c4;
 }
