@@ -15,7 +15,6 @@ cubes.forEach((cube) => {
     cube.style.opacity = "100%";
     cube.style.backgroundColor = randomColor;
     cube.style.transitionDuration = "0s";
-
     cube.style.boxShadow = "0px 0px 27px 3.5px" + color;
   });
 });
